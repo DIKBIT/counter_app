@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&display=swap");
+
+body {
+  font-family: "Montserrat";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  /* background-color: aquamarine; */
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.count {
+  background-color: bisque;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50px;
+  padding-top: 10px;
+}
+.factor-heading {
+  margin-top: 15px;
+}
+.factor-input {
+  /* background-color: crimson; */
+  background-color: #fff;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  height: 40px;
+  border-radius: 5px;
+
+  border: 1px solid #d0d5dd;
+  text-align: center;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+.button {
+  /* background-color: aqua; */
+  width: 40rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between !important;
+  gap: 1rem;
+}
+.increament-button {
+  width: 6rem;
+  height: 3rem;
+
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.06),
+    0px 10px 15px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  background-color: #ecfdf3;
+  border: 1px solid #12b76a;
+  color: #027a48;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.increament-button:active {
+  transform: scale(0.92);
+}
+.decreament-button {
+  width: 6rem;
+  height: 3rem;
+
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.06),
+    0px 10px 15px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  background-color: #fff6ed;
+  border: 1px solid #c4320a;
+  color: #c4320a;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.decreament-button:active {
+  transform: scale(0.92);
+}
+.reset-button {
+  width: 6rem;
+  height: 3rem;
+
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.06),
+    0px 10px 15px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  background-color: #f2f4f7;
+  border: 1px solid #667085;
+  color: #344054;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+.reset-button:active {
+  transform: scale(0.92);
+}
